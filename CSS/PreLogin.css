@@ -1,0 +1,35 @@
+#motorista-login{
+		position: fixed;
+		left: 250px;
+		top: 250px;
+		border:1px solid black;
+		width:325px;
+		height:325px;
+		float:center;
+		background: white;
+		text-align: center;
+		color: #FF0000;
+		font-family: Lato;
+		font-size: 25px;
+		font-weight: 800;
+		line-height: 100px
+	}
+	#rh-login{
+		position: fixed;
+		left: 1000px;
+		top: 250px;
+		border:1px solid black;
+		width:325px;
+		height:325px;
+		float:center;
+		background: white;
+		text-align: center;
+		color: #FF0000;
+		font-family: Lato;
+		font-size: 25px;
+		font-weight: 800;
+		line-height: 100px;
+	}
+	#usuario{
+		line-height: 25px;		
+	}

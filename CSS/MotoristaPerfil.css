@@ -1,0 +1,188 @@
+body {
+margin: 0;
+background: #FCFCFD;
+font-family: Lato;
+font-weight: 300;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #FF0000;
+}
+
+header::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	padding: 0px 0;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 200px;
+	padding-top: 45px;
+	position: relative;
+}
+
+nav a{
+	color: #FCFCFD;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+nav a:hover {
+	color: #040404;
+}
+
+nav a::before {
+	content: "";
+	display:: block;
+	height: 5px;
+	background-color: #040404;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 250px;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+.containerfoto{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	background-color: #B5B5B5;
+	top: 100px;
+	left: 350px;
+	margin-left: 30px;
+	padding-top: 50px;
+	padding-bottom: 5%;
+	width: 400px; 
+	height: 300px;
+	font-family: "Roboto", sans-serif;
+}
+
+.containerfilho{
+	position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.textnome{
+	position: relative;
+	top: -190px;
+	left: 450px;
+}
+
+.textdata{
+	position: relative;
+	top: -230px;
+	left: 450px;
+}
+
+.textcpf{
+	position: relative;
+	top: -270px;
+	left: 450px;
+}
+
+.texttipo{
+	position: relative;
+	top: -310px;
+	left: 450px;
+}
+
+.textident{
+	position: relative;
+	top: -340px;
+	left: 450px;
+}
+
+.textfrota{
+	position: relative;
+	top: -370px;
+	left: 450px;
+}
+
+.textnome input{
+	position: relative;
+	top: -44px;
+	left: 240px;
+	width: 150px; 
+	height: 35px;
+}
+
+.textdata input{
+	position: relative;
+	top: -44px;
+	left: 240px;
+	width: 150px; 
+	height: 35px;
+}
+
+.textcpf input{
+	position: relative;
+	top: -43px;
+	left: 240px;
+	width: 150px; 
+	height: 35px;
+}
+
+.texttipo input{
+	position: relative;
+	top: -43px;
+	left: 240px;
+	width: 150px; 
+	height: 35px;
+}
+
+.textident input{
+	position: relative;
+	top: -43px;
+	left: 240px;
+	width: 150px; 
+	height: 35px;
+}
+
+.textfrota input{
+	position: relative;
+	top: -43px;
+	left: 240px;
+	width: 150px; 
+	height: 35px;
+}
+
+.atributo{
+	position: relative;
+	top: -100px;
+	left: 450px;
+	font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+<link href="CSS/LoginMotorista.css" rel="stylesheet" type="text/css">
+<script src='https://code.jquery.com/jquery-3.2.1.min.js' > </script>
+<script src="JS/LoginMotorista.js"></script>
+<meta charset="utf-8"/>
+
+<title>Login</title>
+
+</head>
+
+<body>
+<div class="login-page">
+  <div class="form">
+	<h3>MOTORISTA</h3>
+	<h5>Seja bem vindo. Digite seu número de identificação e sua senha.</h5>
+    <form class="user-form">
+      <input type="text" placeholder="Identificação" Id="Identificacao"/><p class="erro-user"></p>
+      <input type="button" onclick="validateUser(this.form)" value="Entrar"/> 
+    </form>
+	
+	<form class="senha-form">
+	  <input type="password" placeholder="Senha" Id="Senha"/><p class="erro-senha"></p>
+      <input type="button" onclick="validateSenha(this.form)" value="Entrar"/> 
+	</form>
+  </div>
+</div>
+</body>
+
+</html>
